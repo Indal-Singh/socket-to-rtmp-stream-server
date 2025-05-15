@@ -1,0 +1,17 @@
+{
+  "name": "socket-to-rtmp-stream-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "Indal Singh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "socket.io": "^4.8.1"
+  }
+}

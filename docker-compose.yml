@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  stream-server:
+    build: .
+    ports:
+      - "3011:3011"
+    environment:
+      - PORT=3011
+      - RTMP_BASE_URL=rtmp:/localhost/live 
+    restart: unless-stopped
